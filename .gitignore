@@ -1,0 +1,11 @@
+/yarn.lock
+/package-lock.json
+node_modules
+/pages
+.umi
+.umi-production
+.idea
+dist
+lib
+.jest-cache
+coverage

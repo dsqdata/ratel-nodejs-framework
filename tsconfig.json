@@ -1,0 +1,44 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+//      "@brickd/react": [
+//        "packages/react/src/index"
+//      ],
+//      "@brickd/react/*": [
+//        "packages/react/src/*"
+//      ],
+//      "@brickd/core": [
+//        "packages/core/src/index"
+//      ],
+//      "@brickd/core/*": [
+//        "packages/core/src/*"
+//      ],
+//      "@brickd/react-web": [
+//        "packages/react-web/src/index"
+//      ],
+//      "@brickd/react-web/*": [
+//        "packages/react-web/src/*"
+//      ],
+//      "@brickd/render": [
+//        "packages/render/src/index"
+//      ],
+//      "@brickd/render/*": [
+//        "packages/render/src/*"
+//      ],
+      "@ratel/utils": [
+        "packages/utils/src/index"
+      ],
+      "@ratel/utils/*": [
+        "packages/utils/src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "**/node_modules/**",
+    "**/lib/**",
+    "node_modules"
+  ]
+}

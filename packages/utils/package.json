@@ -1,0 +1,27 @@
+{
+  "name": "@ratel/utils",
+  "version": "1.0.0-alpha.1",
+  "description": "> TODO: description",
+  "author": "yy6yy <yy6yy@live.cn>",
+  "license": "MIT",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "moment": "^2.29.1",
+    "qs": "^6.9.6"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.35"
+  },
+  "scripts": {
+    "build": "tsc && rollup -c rollup.config.js",
+    "clean": "../../scripts/clean_package.sh",
+    "dev": "tsc -w & rollup -c rollup.config.js -w"
+  }
+}
